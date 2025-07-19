@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
-dataframe = pd.read_csv('House-01.csv')
+#fileName='House-01.csv'
+fileName='House-02.csv'
+dataframe = pd.read_csv(fileName)
 dataframe = dataframe.iloc[1:].reset_index(drop=True)
 
 
